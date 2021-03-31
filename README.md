@@ -1,36 +1,30 @@
 # AceBook - Pipeface
 
-REQUIRED INSTRUCTIONS:
+## How to use
 
-1. Fork this repository to `acebook-teamname` and customize
-the below**
+#### Download the repo and install packages and setup database
 
-[You can find the engineering project outline here.](https://github.com/makersacademy/course/tree/master/engineering_projects/rails)
+1. Clone repo `git@github.com:GlykeriaStr/acebook--Pipeface-.git`
+2. Change directory `cd Pipeface`
+3. Install gems `bundle`
+4. Create the databases `rails db:create`
+5. Migrate the databases `rais db:migrate`
 
-2. The card wall is here: <please update>
+#### Using the app
 
-## How to contribute to this project
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+1. Run local server `rails server`
+2. Open browser and head to `http://localhost:3000`
 
-## Quickstart
+### Screenshots of the app
 
-First, clone this repository. Then:
+Index Page
+![index](app/assets/images/index.png)
 
-```bash
-> bundle install
-> bin/rails db:create
-> bin/rails db:migrate
+Log in Page
+![log_in](app/assets/images/log_in.png)
 
-> bundle exec rspec # Run the tests to ensure it works
-> bin/rails server # Start the server at localhost:3000
-```
+New post page
+![newpost](app/assets/images/newpost.png)
 
-## Troubleshooting
-
-If you don't have Node.js installed yet, you might run into this error when running rspec:
-```
-ExecJS::RuntimeUnavailable:
-  Could not find a JavaScript runtime. See https://github.com/rails/execjs for a list of available runtimes.
- ```
-That is because Rails will use a Javascript runtime (such as Node) under the hood. The easiest way is to install Node by running `brew install node` -
-and then run `bundle exec rspec` again
+Feed page
+![post](app/assets/images/post.png)
