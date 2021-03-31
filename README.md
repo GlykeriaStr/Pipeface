@@ -23,9 +23,6 @@ Index Page
 Log in Page
 ![log_in](app/assets/images/log_in.png)
 
-New post page
-![new_post](app/assets/images/new_post.png)
-
 Feed page
 ![post](app/assets/images/post.png)
 
